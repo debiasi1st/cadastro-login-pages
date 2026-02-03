@@ -1,0 +1,96 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2866a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 80%;
+    max-width: 32rem;
+    background-color: #fff;
+    border-left: .7rem solid rgb(39, 54, 133);
+    padding: 1rem 0;
+    box-shadow: 0.2rem 0.2rem 2rem rgba(0,0,0,.3);
+}
+
+fieldset {
+    margin: 1rem 1.5rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: normal;  
+    color: rgb(39, 54, 133);
+    margin-bottom: 0rem;
+    padding: 0;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-top: .8rem;
+    margin-bottom: 0rem;
+}
+
+input {
+    border: .1rem solid transparent;
+    border-bottom-color: #2866a0;
+    margin-top: 0;
+    padding: .5rem 0;
+    font-size: 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.actions button {
+    background-color: #2866a0;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: .2rem;
+    padding: .7rem 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0.1rem .1rem .3rem rgba(0,0,0,.3);
+}
+
+.pass-button {
+    font-size: .7rem;
+}
+
+.register-button {
+    text-decoration: none;
+    color: #2866a0;
+    font-weight: bold;
+}
+
+.actions__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #2866a0;
+    padding-left: .3rem;
+}
